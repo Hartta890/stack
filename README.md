@@ -8,6 +8,6 @@ services:
  wordpress:
   image: wordpress
   ports:
-   - 8989:80
+   - 8888:80
   deploy: 
    replicas: 4
